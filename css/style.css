@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../images/wallpaper.jpg);
+}
+
+.menu {
+  width: 500px;
+  height: 300px;
+  border: 1px solid rgb(128, 64, 0);
+  margin: auto;
+  margin-top: 100px;
+  background-color: rgba(159, 73, 12, 0.95);
+  border-radius: 5px;
+}
+
+h1 {
+  color: rgb(220, 158, 71);
+}
+
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+
+ul {
+  margin-top: 50px;
+}
+
+li {
+  list-style: none;
+  padding: 5px;
+}
+
+button {
+  width: 485px;
+  height: 50px;
+  border-radius: 5px;
+  border-color: rgb(62, 10, 12);
+  /* border: 2px solid rgb(62, 10, 12);
+  border-right: 5px solid rgb(62, 10, 12);
+  border-bottom: 5px solid rgb(62, 10, 12); */
+  background-color: rgb(220, 158, 71);
+}
+
+button:hover {
+  background-color: rgb(62, 10, 12);
+}
+
+a {
+  font-size: 20px;
+  color: rgb(159, 73, 12);
+  text-decoration: none;
+  display: block;
+}
